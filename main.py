@@ -35,6 +35,7 @@ async def main():
     }
 
     locations = {}
+    random.shuffle(setup["locations"])
     for loc in setup["locations"]:
         location = location_classes[loc["type"]]()
         locations[loc["name"]] = location
