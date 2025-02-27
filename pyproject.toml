@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "the-town"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Evans <tyler@poorlythoughtout.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+relative-world-ollama = {path = "../relative-world-ollama", develop = true}
+relative-world = {path = "../relative-world", develop = true}
+orjson = "^3.10.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

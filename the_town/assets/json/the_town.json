@@ -1,0 +1,249 @@
+{
+  "locations": [
+    {
+      "type": "Gym",
+      "name": "Iron Haven Gym"
+    },
+    {
+      "type": "Library",
+      "name": "Oakwood Library"
+    },
+    {
+      "type": "Park",
+      "name": "Maple Grove Park"
+    },
+    {
+      "type": "Cafe",
+      "name": "Sunrise Cafe"
+    },
+    {
+      "type": "Mall",
+      "name": "Evergreen Mall"
+    },
+    {
+      "type": "Hospital",
+      "name": "St. Mary's Hospital"
+    },
+    {
+      "type": "School",
+      "name": "Riverside High School"
+    },
+    {
+      "type": "Police Station",
+      "name": "Central Police Station"
+    },
+    {
+      "type": "Docks",
+      "name": "Harbor Docks"
+    },
+    {
+      "type": "Theater",
+      "name": "Grandview Theater"
+    }
+  ],
+  "connections": [
+    ["Iron Haven Gym", "Maple Grove Park"],
+    ["Oakwood Library", "Maple Grove Park"],
+    ["Sunrise Cafe", "Maple Grove Park"],
+    ["Evergreen Mall", "Maple Grove Park"],
+    ["St. Mary's Hospital", "Maple Grove Park"],
+    ["Riverside High School", "Maple Grove Park"],
+    ["Central Police Station", "Maple Grove Park"],
+    ["Harbor Docks", "Maple Grove Park"],
+    ["Grandview Theater", "Maple Grove Park"],
+    ["Iron Haven Gym", "Oakwood Library"],
+    ["Iron Haven Gym", "Sunrise Cafe"],
+    ["Iron Haven Gym", "Evergreen Mall"],
+    ["Iron Haven Gym", "St. Mary's Hospital"],
+    ["Iron Haven Gym", "Riverside High School"],
+    ["Iron Haven Gym", "Central Police Station"],
+    ["Iron Haven Gym", "Harbor Docks"],
+    ["Iron Haven Gym", "Grandview Theater"],
+    ["Oakwood Library", "Sunrise Cafe"],
+    ["Oakwood Library", "Evergreen Mall"],
+    ["Oakwood Library", "St. Mary's Hospital"],
+    ["Oakwood Library", "Riverside High School"],
+    ["Oakwood Library", "Central Police Station"],
+    ["Oakwood Library", "Harbor Docks"],
+    ["Oakwood Library", "Grandview Theater"],
+    ["Sunrise Cafe", "Evergreen Mall"],
+    ["Sunrise Cafe", "St. Mary's Hospital"],
+    ["Sunrise Cafe", "Riverside High School"],
+    ["Sunrise Cafe", "Central Police Station"],
+    ["Sunrise Cafe", "Harbor Docks"],
+    ["Sunrise Cafe", "Grandview Theater"],
+    ["Evergreen Mall", "St. Mary's Hospital"],
+    ["Evergreen Mall", "Riverside High School"],
+    ["Evergreen Mall", "Central Police Station"],
+    ["Evergreen Mall", "Harbor Docks"],
+    ["Evergreen Mall", "Grandview Theater"],
+    ["St. Mary's Hospital", "Riverside High School"],
+    ["St. Mary's Hospital", "Central Police Station"],
+    ["St. Mary's Hospital", "Harbor Docks"],
+    ["St. Mary's Hospital", "Grandview Theater"],
+    ["Riverside High School", "Central Police Station"],
+    ["Riverside High School", "Harbor Docks"],
+    ["Riverside High School", "Grandview Theater"],
+    ["Central Police Station", "Harbor Docks"],
+    ["Central Police Station", "Grandview Theater"],
+    ["Harbor Docks", "Grandview Theater"]
+  ],
+  "actors": [
+    {
+      "name": "Alice",
+      "description": "A fitness enthusiast and computer programmer",
+      "location": "Iron Haven Gym",
+      "private_knowledge": "Knows that David is struggling with money but hides it well. Thinks Wendy is too competitive but respects her drive. Secretly wants to quit programming and become a personal trainer."
+    },
+    {
+      "name": "Bob",
+      "description": "A bookworm and body builder",
+      "location": "Oakwood Library",
+      "private_knowledge": "Has a crush on Eve but is too shy to say anything. Believes Noah is hiding something about his past. Thinks David takes shortcuts in training and disapproves."
+    },
+    {
+      "name": "Charlie",
+      "description": "A nature lover and author",
+      "location": "Maple Grove Park",
+      "private_knowledge": "Knows that Frank gives out free hotdogs to people he likes. Is aware that Yasmin paints Olivia jogging but hasn’t told Olivia yet. Thinks Paul’s music is amazing but won’t say it out loud."
+    },
+    {
+      "name": "David",
+      "description": "An employee of the gym",
+      "location": "Iron Haven Gym",
+      "private_knowledge": "Is in debt but doesn’t want anyone to know. Still has feelings for Wendy but pretends he doesn’t. Thinks Alice has potential to be a trainer but doesn’t want to encourage her to quit programming."
+    },
+    {
+      "name": "Eve",
+      "description": "Head librarian at the Library",
+      "location": "Oakwood Library",
+      "private_knowledge": "Knows Bob has a crush on her but isn’t sure how to respond. Thinks Noah is too secretive about his past but doesn’t press. Believes Zane is looking into something dangerous."
+    },
+    {
+      "name": "Frank",
+      "description": "A hotdog vendor at the park",
+      "location": "Maple Grove Park",
+      "private_knowledge": "Used to be Olivia’s babysitter but hasn’t mentioned it to her. Knows that Charlie's last book was ghostwritten. Thinks Hank is a bad security guard but keeps it to himself."
+    },
+    {
+      "name": "Grace",
+      "description": "A barista at Sunrise Cafe",
+      "location": "Sunrise Cafe",
+      "private_knowledge": "Is Paul’s biggest fan but doesn’t want to seem obsessed. Knows Zane is investigating someone at the cafe. Secretly wants to move away but feels stuck."
+    },
+    {
+      "name": "Hank",
+      "description": "A mall security guard",
+      "location": "Evergreen Mall",
+      "private_knowledge": "Caught April shoplifting but let her go. Regrets breaking up with Quinn. Thinks Frank is annoying but tolerates him."
+    },
+    {
+      "name": "Isla",
+      "description": "A doctor working late hours",
+      "location": "St. Mary's Hospital",
+      "private_knowledge": "Knows Brandon has a crush on her but pretends not to notice. Suspects Riley is thinking about quitting. Thinks Jack is underappreciated as a teacher."
+    },
+    {
+      "name": "Jack",
+      "description": "A high school teacher",
+      "location": "Riverside High School",
+      "private_knowledge": "Knows Sophie is struggling with school but hides it well. Thinks Catherine is too controlling with students. Wishes he had pursued a different career."
+    },
+    {
+      "name": "Karen",
+      "description": "A detective with sharp instincts",
+      "location": "Central Police Station",
+      "private_knowledge": "Believes Zane is hiding something dangerous. Suspects corruption at the police station. Thinks Tom is too naive for this job."
+    },
+    {
+      "name": "Leo",
+      "description": "A fisherman with many stories to tell",
+      "location": "Harbor Docks",
+      "private_knowledge": "Knows Uma once saved his life in a storm. Thinks Mia is wasting her talent. Misses being at sea but won’t admit it."
+    },
+    {
+      "name": "Mia",
+      "description": "An aspiring actress",
+      "location": "Grandview Theater",
+      "private_knowledge": "Knows Victor sees her as a project, not a real actress. Suspects Catherine and Victor have a past. Thinks Uma has an interesting story to tell but won’t push."
+    },
+    {
+      "name": "Noah",
+      "description": "A retired professor, always reading",
+      "location": "Oakwood Library",
+      "private_knowledge": "Has a secret past he doesn’t talk about. Thinks Xavier is a fool but enjoys their arguments. Knows Eve is interested in something beyond books but isn’t sure what."
+    },
+    {
+      "name": "Olivia",
+      "description": "A mother who jogs every morning",
+      "location": "Maple Grove Park",
+      "private_knowledge": "Has no idea Yasmin is painting her. Thinks Frank looks familiar but can’t place him. Wishes she had more time for herself."
+    },
+    {
+      "name": "Paul",
+      "description": "A struggling musician",
+      "location": "Sunrise Cafe",
+      "private_knowledge": "Knows Zane is working on a big scoop but won’t ask what. Thinks Grace is too good to be working at the cafe. Feels like he’s running out of time to make it big."
+    },
+    {
+      "name": "Quinn",
+      "description": "A fashion store manager",
+      "location": "Evergreen Mall",
+      "private_knowledge": "Still has feelings for Hank but won’t admit it. Thinks April is too young to be obsessed with fashion. Knows Victor is in debt but doesn’t mention it."
+    },
+    {
+      "name": "Riley",
+      "description": "An ambulance driver",
+      "location": "St. Mary's Hospital",
+      "private_knowledge": "Is thinking about quitting but hasn’t told anyone. Knows Isla is overworked but won’t say anything. Thinks Brandon should be more confident."
+    },
+    {
+      "name": "Sophie",
+      "description": "A high school student and track runner",
+      "location": "Riverside High School",
+      "private_knowledge": "Is struggling with grades but doesn’t want to ask for help. Thinks Jack is the only teacher who really cares. Wishes she could talk to Catherine about her future."
+    },
+    {
+      "name": "Tom",
+      "description": "A rookie police officer",
+      "location": "Central Police Station",
+      "private_knowledge": "Looks up to Karen but doesn’t understand her distrust. Thinks Zane is suspicious but hasn’t said anything. Is starting to doubt if he belongs in the force."
+    },
+    {
+      "name": "Uma",
+      "description": "A sailor just back from a long voyage",
+      "location": "Harbor Docks",
+      "private_knowledge": "Knows Leo is struggling with being on land. Suspects Victor has secrets. Thinks Mia should leave town and make a name for herself elsewhere."
+    },
+    {
+      "name": "Victor",
+      "description": "A theater director with grand ambitions",
+      "location": "Grandview Theater",
+      "private_knowledge": "Is in debt but hides it well. Sees Mia as a promising project, not a real star. Knows Catherine has dirt on him but hopes she never uses it."
+    },
+    {
+      "name": "Wendy",
+      "description": "A fitness coach and health blogger",
+      "location": "Iron Haven Gym",
+      "private_knowledge": "Thinks Alice is talented but too cautious. Knows David is struggling but won’t reach out. Wants to leave town and start over but feels obligated to stay."
+    },
+    {
+      "name": "Xavier",
+      "description": "An old man who visits the library daily",
+      "location": "Oakwood Library",
+      "private_knowledge": "Enjoys arguing with Noah but secretly agrees with him. Thinks Eve is hiding something but doesn’t press. Wishes he had done more with his life."
+    },
+    {
+      "name": "Yasmin",
+      "description": "A painter capturing the beauty of the park",
+      "location": "Maple Grove Park",
+      "private_knowledge": "Knows Olivia doesn’t realize she’s being painted. Thinks Charlie’s books are overrated but won’t say it. Wishes she had more time for her own art."
+    },
+    {
+      "name": "Zane",
+      "description": "A journalist working on a big scoop",
+      "location": "Sunrise Cafe",
+      "private_knowledge": "Is investigating something dangerous but won’t tell anyone. Thinks Karen is getting too close to the truth. Knows Paul is more talented than he realizes."
+    }
+  ]
+}
